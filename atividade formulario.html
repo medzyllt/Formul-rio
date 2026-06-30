@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Cadastro do Aluno</h1>
+
+    <form>
+        <label for="nome">Nome: </label>
+        <input type="text" name="Nome" id="Nome" placeholder="Digite seu nome">
+
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="Digite seu email">
+
+        <label for="password">Senha: </label>
+        <input type="password" name="password" id="password" placeholder="Digite sua senha">
+
+        <label for="date">Data de nascimento: </label>
+        <input type="date" name="date" id="date">
+
+        <label for="cidade">Cidade: </label>
+        <select name="cidade" id="cidade">
+
+        <option>Selecione sua cidade</option>
+        <option>Londrina</option>
+        <option>Curitiba</option>
+        <option>Maringá</option>
+        <option>Jataizinho</option>
+        <option>Ibiporã</option>
+
+        </select>
+
+        <label for="histórico">Já fez o curso? </label>
+        <input type="radio" name="histórico">
+        Sim
+
+        <input type="radio" name="histórico">
+        Não
+
+        <label>
+            <input type="checkbox" id="opcoes">
+            Aceito os termos
+        </label>
+
+        <label>
+            Observação
+        </label>
+
+        <textarea rows="4"></textarea>
+
+        <button type="submit">
+         Cadastrar
+        </button>
+
+    </form>
+</body>
+</html>
